@@ -1,4 +1,4 @@
-![Harvard's Introduction to the Intellectual Enterprises of Computer Science and the Art of Programming](CS50.png  "This is CS50")
+![](https://media.giphy.com/media/4S5CM0f8T3h6M/giphy.gif)
 
 ### Course description
 This is CS50x, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike, with or without prior programming experience. 
