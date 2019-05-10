@@ -1,4 +1,4 @@
-# Introduction-To-Computer-Science
+![Harvard's Introduction to the Intellectual Enterprises of Computer Science and the Art of Programming](CS50.png  "This is CS50")
 
 ### Course description
 This is CS50x, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike, with or without prior programming experience. 
@@ -13,51 +13,65 @@ An entry-level course taught by David J. Malan, CS50x teaches students how to th
 * How to engage with a vibrant community of like-minded learners from all levels of experience
 * How to develop and present a final programming project to your peers
 
+## Problem Sets
+
+A summary of problem sets appears below
+
+|Problem Set|	|Language|
+|:----------------------|:-----:|:-------------:|
+|[Problem Set 0][pset0] |Scratch|Scratch|
+|[Problem Set 1][pset1] |C|C|
+|[Problem Set 2][pset2] |Crypto|C|
+|[Problem Set 3][pset3] |Game of Fifteen|C|
+|[Problem Set 4][pset4] |Forensics|C|
+|[Problem Set 5][pset5] |Mispellings|C|
+|[Problem Set 6][pset6] |Sentimental|Python|
+|[Problem Set 7][pset7] |C$50 Finance|Python, SQL|
+|[Problem Set 8][pset8] |Mashup|JavaScript|
+|[Final Project][final] |Any|Any|
+
+[pset0]: pset0/
+
+[pset1]: pset1/
+
+[pset2]: pset2/
+
+[pset3]: pset3/
+
+[pset4]: pset4/
+
+[pset5]: pset5/
+
+[pset6]: pset6/
+
+[pset7]: pset7/
+
+[pset8]: pset8/
+
+[final]: final_project/
 
 
+[0]: https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/courseware/d0c88865e9434f17808f54870ea230a1/5b52cf0573bb4c9ab8bc979e728b2446/
 
-Problem sets and projects for Harvard CS50: Introduction to Computer Science
+[1]: https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/courseware/d0c88865e9434f17808f54870ea230a1/da6b01d04a5643e796a4ec904db9363c/
 
-To complete the following psets, I studied all of the CS50 lectures, walkthroughs, sections, and shorts on edX.
+[2]: https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/courseware/d0c88865e9434f17808f54870ea230a1/e7180a2d0f4445878d0e74f6ddbde944/
 
-<h3>psets:</h3>
+[3]: https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/courseware/d0c88865e9434f17808f54870ea230a1/423d8aa02ac945acb41fdb3fa5e8af88/
 
-<ul>
-<li><a href="http://docs.cs50.net/2016/fall/psets/1/pset1.html">Problem Set 1: C</a></li>
-<li><a href="http://docs.cs50.net/2016/fall/psets/2/pset2.html">Problem Set 2: Crypto</a></li>
-<li><a href="http://docs.cs50.net/2016/fall/psets/3/pset3.html">Problem Set 3: Game of Fifteen</a></li>
-<li><a href="http://docs.cs50.net/2016/fall/psets/4/pset4.html">Problem Set 4: Forensics</a></li>
-<li><a href="http://docs.cs50.net/2016/fall/psets/5/pset5.html">Problem Set 5: Mispellings</a></li>
-<li><a href="http://docs.cs50.net/2016/fall/psets/6/pset6.html">Problem Set 6: Web Server</a></li>
-<li><a href="http://docs.cs50.net/2016/fall/psets/7/pset7.html">Problem Set 7: C$50 Finance</a></li>
-<li><a href="http://docs.cs50.net/2016/fall/psets/8/pset8.html">Problem Set 8: Mashup</a></li>
-</ul>
+[4]: https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/courseware/d0c88865e9434f17808f54870ea230a1/04d14ed5bcaf4d7fae80b6e0772fd1c7/
 
+[5]: https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/courseware/d0c88865e9434f17808f54870ea230a1/9096126aaf144aab9fa4aeb8ad9eb938/
 
-<h3><a href="http://docs.cs50.net/2016/fall/syllabus/cs50.html">syllabus:</a></h3>
-#### Week 0
-Binary. ASCII. Algorithms. Pseudocode. Source code. Compiler. Object code. Scratch. Statements. Boolean expressions. Conditions. Loops. Variables. Functions. Arrays. Threads. Events
-#### Week 1
-Linux. C. Compiling. Libraries. Types. Standard output
-#### Week 2
-Casting. Imprecision. Switches. Scope. Strings. Arrays. Cryptography
-#### Week 3
-Command-line arguments. Searching. Sorting. Bubble sort. Selection sort. Insertion sort. O. Ω .Θ. Recursion. Merge Sort
-#### Week 4
-Stack. Debugging. File I/O. Hexadecimal. Strings. Pointers. Dynamic memory allocation
-#### Week 5
-Heap. Buffer overflow. Linked lists. Hash tables. Tries. Trees. Stacks. Queues
-#### Week 6
-TCP/IP. HTTP
-#### Week 7
-HTML. CSS. PHP
-#### Week 8
-MVC. SQL
-#### Week 9
-JavaScript. Ajax
-#### Week 10
-Security. Artificial intelligence
-#### Week 11
-Artificial intelligence, continued
-#### Week 12
-Exciting conclusion
+[6]: https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/courseware/d0c88865e9434f17808f54870ea230a1/3bc1fc6f3ec949eebc726673d164fff8/
+
+[7]: https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/courseware/d0c88865e9434f17808f54870ea230a1/9bd6a0559c6d4a6d923a94375347efc0/
+
+[8]: https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/courseware/d0c88865e9434f17808f54870ea230a1/5f245ed1b5004cdcb2f37a09ea90f05d/
+
+[9]: https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/courseware/d0c88865e9434f17808f54870ea230a1/59d12907a77f4f4d8d24b831003b6962/
+
+[10]: https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/courseware/d0c88865e9434f17808f54870ea230a1/6f7f4b3b4f89444ea4f32563569fe093/
+
+[11]: https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/courseware/d0c88865e9434f17808f54870ea230a1/51ce7ee1ff8b46019f32c6cc729f307b/
+
