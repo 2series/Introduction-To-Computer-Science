@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+        <!-- documentation at http://getbootstrap.com/docs/4.0/, alternative themes at https://bootswatch.com/4-alpha/ -->
+        <!-- Offline -->
+        <link href="../static/bootstrap.min.css" rel="stylesheet" />
+        <!-- Original
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet"/>
+        -->
+
+        <link href="/static/styles.css" rel="stylesheet"/>
+
+        <!-- Offline -->
+        <script src="../static/js/jquery.min.js"></script>
+        <script src="../static/js/popper.min.js"></script>
+        <script src="../static/js/bootstrap.min.js"></script>
+        <script src="../static/js/finance.js"></script>
+
+        <!-- Original
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+        -->
+
+        <title>C$50 Finance: {% block title %}{% endblock %}</title>
+
+    </head>
+
+    <body>
+
+        {% include "include/nav.html" %}
+
+        {% with errors = get_flashed_messages(category_filter=["error"])%}
+        {% if errors %}
+            <header>
+                <div class="alert alert-danger border text-center" role="alert">
+                    {{ errors | join(" ") }}
+                </div>
+            </header>
+        {% else%}
+        {% if get_flashed_messages() %}
+            <header>
+                <div class="alert alert-primary border text-center" role="alert">
+                    {{ get_flashed_messages() | join(" ") }}
+                </div>
+            </header>
+        {% endif %}
+        {% endif %}
+        {% endwith%}
+        
+        {% if resetpassword %}
+        <header>
+            {% if resetpassword.type == 'success' %}
+                <div class="alert alert-primary border text-center" role="alert">
+                    {{ resetpassword.text }}
+                </div>
+            {% else %}
+                <div class="alert alert-danger border text-center" role="alert">
+                    {{ resetpassword.text }}
+                </div>
+            {% endif %}
+            </header>
+        {% endif %}
+
+        <main class="container p-5">
+            {% block main %}{% endblock %}
+
+            {% if session.user_id %}
+                {% include "include/modals.html" %}
+            {% endif %}
+        </main>
+        
+    </body>
+
+</html>
